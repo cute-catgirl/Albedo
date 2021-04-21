@@ -1,2 +1,2 @@
 # The Albedo Effect
-Website I made for school project about Albedo effect and climate change
+Website explaining the albedo affect and touching up on climate change.
