@@ -1,3 +1,8 @@
-h1, h2 {
-  font-family: sans-serif;
+@import "nord.css";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+  background-color: var(--nord1);
+  color: var(--nord8);
+  font-family: "PT Sans", sans-serif;
 }

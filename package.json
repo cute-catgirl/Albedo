@@ -1,0 +1,22 @@
+{
+  "name": "albedo",
+  "version": "1.0.0",
+  "description": "Website explaining the albedo affect and touching up on climate change.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boxit379/Albedo.git"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boxit379/Albedo/issues"
+  },
+  "homepage": "https://github.com/Boxit379/Albedo#readme",
+  "dependencies": {
+    "chart.js": "^3.1.1"
+  }
+}
