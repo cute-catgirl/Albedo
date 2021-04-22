@@ -1,2 +1,2 @@
 # The Albedo Effect
-Website explaining the albedo affect and touching up on climate change.
+Website explaining the albedo effect and touching up on climate change.
