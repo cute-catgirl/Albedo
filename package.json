@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Boxit379/Albedo#readme",
   "dependencies": {
-    "chart.js": "^3.1.1"
+    "chart.js": "^3.1.1",
+    "nord": "^0.2.1"
   }
 }

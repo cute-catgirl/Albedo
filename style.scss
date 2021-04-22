@@ -1,0 +1,8 @@
+@import "node_modules/nord/src/sass/nord.scss";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+  background-color: $nord0;
+  color: $nord8;
+  font-family: 'PT Sans', sans-serif;
+}

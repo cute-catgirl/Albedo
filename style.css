@@ -1,8 +1,8 @@
-@import "nord.css";
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 body {
-  background-color: var(--nord1);
-  color: var(--nord8);
+  background-color: #2E3440;
+  color: #88C0D0;
   font-family: "PT Sans", sans-serif;
 }
+
+/*# sourceMappingURL=style.css.map */
