@@ -3,11 +3,29 @@ body {
   background-color: #2E3440;
   color: #D8DEE9;
   font-family: "PT Sans", sans-serif;
-  margin: 0px;
 }
 
-h1, h2, p {
-  margin: 1em;
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px;
+}
+
+.dataTitle {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+
+.dataContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: flex-start;
+}
+
+.data {
+  background-color: #5E81AC;
+  padding: 1em;
+  margin: 10px;
+  width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

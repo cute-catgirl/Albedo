@@ -6,3 +6,26 @@ body {
   color: $nord4;
   font-family: 'PT Sans', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 10px;
+}
+
+.dataTitle {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+
+.dataContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: flex-start;
+}
+
+.data {
+  background-color: $nord10;
+  padding: 1em;
+  margin: 10px;
+  width: auto;
+}
