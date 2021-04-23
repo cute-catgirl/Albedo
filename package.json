@@ -19,6 +19,8 @@
   "dependencies": {
     "chart.js": "^3.1.1",
     "css-tooltip": "^0.3.4",
-    "nord": "^0.2.1"
+    "nord": "^0.2.1",
+    "overlayscrollbars": "^1.13.1",
+    "simplebar": "^5.3.0"
   }
 }

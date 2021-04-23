@@ -3,6 +3,11 @@ body {
   background-color: #2E3440;
   color: #D8DEE9;
   font-family: "PT Sans", sans-serif;
+  margin: 0px;
+}
+
+h1, h2, p {
+  margin: 1em;
 }
 
 /*# sourceMappingURL=style.css.map */
