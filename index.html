@@ -26,9 +26,22 @@
   <body>
     <h1>The Albedo Effect</h1>
     <p>The earth is warming. And if we don't stop it soon, things could go from bad to worse.<br>
-      Since 1880 alone, the earth has warmed about <span class="tooltip">2.1 degrees Farenheit<span class="tooltiptext">1 degree Celsius</span></span>. This may not sound like much, but just these 2 extra degrees have had a massive impact on the earth.</p>
+      Since 1880 alone, the earth has warmed about <span class="tooltip">1 degree Celsius<span class="tooltiptext">2.1 degrees Farenheit</span></span>. This may not sound like much, but just these 2 extra degrees have had a massive impact on the earth.</p>
     <p>One of these impacts is the melting of large ice sheets around Greenland & Antartica. If they continue to melt, things could spiral out of control and the change would be irreversible.<br>
       The snow and ice around the poles are responsible for bouncing back 85% of sun rays. If it were to disappear, more sunlight would be absorbed by the earth, thus causing even more warming.<br>
-      This warming, in turn, would cause even more melting of ice sheets in an unstoppable <span class="tooltip">feedback loop<span class="tooltiptext">Something where the output impacts the input</span></span>.</p>
+      This warming, in turn, would cause even more melting of ice sheets in an irreversible <span class="tooltip">feedback loop<span class="tooltiptext">Something where the output impacts the input</span></span>. To get a full idea of how much this would impact the earth, we need to look at some data:</p>
+    <h2>In <span id="years"></span> year<span id="sLetter"></span>:</h2>
+    <input type="range" min="1" max="100" value="1" class="slider" id="myRange">
+    <div class="dataContainer">
+      <div class="data">
+        <h3>The sea level rises by <span id="data1"></span> milimeters</h3>
+      </div>
+      <div class="data">
+        <h3><span id="data2"></span> billion metric tons of ice sheets are lost</h3>
+      </div>
+      <div class="data">
+        <h3>The earth's temperature rises by <span id="data3"></span> degrees Celsius each year</h3>
+      </div>
+    <script type="text/javascript" src="slider.js"></script>
   </body>
 </html>
