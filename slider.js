@@ -6,13 +6,13 @@ var years = document.getElementById("years");
 var sLetter = document.getElementById("sLetter");
 data1.innerHTML = slider.value * 3.3;
 data2.innerHTML = slider.value * 429;
-data3.innerHTML = 0.08 * slider.value / 10
+data3.innerHTML = 0.008 * slider.value
 years.innerHTML = slider.value;
 
 slider.oninput = function() {
   data1.innerHTML = Math.round((this.value * 3.3) * 10) / 10;
   data2.innerHTML = Math.round((this.value * 429) * 10) / 10;
-  data3.innerHTML = (0.08 * this.value / 10).toFixed(3);
+  data3.innerHTML = (0.008 * this.value).toFixed(3);
   years.innerHTML = this.value;
   if (this.value > 1) {
     sLetter.innerHTML = "s";

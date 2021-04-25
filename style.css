@@ -17,8 +17,7 @@ h1, h2, h3, h4, h5, h6, p, input {
 
 .dataContainer {
   display: grid;
-  grid-template-columns: 50% 50%;
-  justify-content: flex-start;
+  grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
 .data {
