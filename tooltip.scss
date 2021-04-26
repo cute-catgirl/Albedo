@@ -12,6 +12,7 @@
 }
 
 .tooltip .tooltiptext {
+  visibility: hidden;
   width: 120px;
   background-color: $nord10;
   color: $nord5;
@@ -40,4 +41,5 @@
 
 .tooltip:hover .tooltiptext {
   opacity: 1;
+  visibility: visible;
 }

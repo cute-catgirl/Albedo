@@ -8,6 +8,12 @@ data1.innerHTML = slider.value * 3.3;
 data2.innerHTML = slider.value * 429;
 data3.innerHTML = 0.008 * slider.value
 years.innerHTML = slider.value;
+if (slider.value > 1) {
+  sLetter.innerHTML = "s";
+}
+else {
+  sLetter.innerHTML = "";
+}
 
 slider.oninput = function() {
   data1.innerHTML = Math.round((this.value * 3.3) * 10) / 10;
