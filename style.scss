@@ -74,3 +74,18 @@ footer {
   background-color: $nord10;
   font-weight: bold;
 }
+
+#navbar {
+  background-color: $nord3;
+  overflow: hidden;
+}
+
+.navitem {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #f2f2f2;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
