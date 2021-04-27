@@ -1,17 +1,76 @@
-/* Error: expected "{".
- *   ,
- * 1 | poop lolz ashmit sucks lolz
- *   |                            ^
- *   '
- *   style.scss 1:28  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 1 \2502  poop lolz ashmit sucks lolz\d\a   \2502                             ^\a   \2575 \a   style.scss 1:28  root stylesheet';
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+body {
+  background-color: #2E3440;
+  color: #D8DEE9;
+  font-family: "PT Sans", sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6, p, input {
+  margin: 10px;
+}
+
+/* unvisited link */
+a:link {
+  color: #D8DEE9;
+}
+
+/* visited link */
+a:visited {
+  color: #D8DEE9;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ECEFF4;
+}
+
+/* selected link */
+a:active {
+  color: #ECEFF4;
+}
+
+.dataTitle {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+
+.dataContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: flex-start;
+}
+
+.data {
+  background-color: #5E81AC;
+  padding: 1em;
+  margin: 10px;
+  width: auto;
+}
+
+.slider {
+  width: 20%;
+  height: 5px;
+  border-radius: 50px;
+}
+
+input[type=range]::-moz-range-thumb {
+  background-color: white;
+  border-color: white;
+  border-radius: 25px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background-color: white;
+  border-color: white;
+  border-radius: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #5E81AC;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

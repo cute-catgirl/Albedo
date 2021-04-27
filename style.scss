@@ -1,1 +1,76 @@
-poop lolz ashmit sucks lolz
+@import "node_modules/nord/src/sass/nord.scss";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+  background-color: $nord0;
+  color: $nord4;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, input {
+  margin: 10px;
+}
+
+/* unvisited link */
+a:link {
+ color: $nord4;
+}
+
+/* visited link */
+a:visited {
+ color: $nord4;
+}
+
+/* mouse over link */
+a:hover {
+ color: $nord6;
+}
+
+/* selected link */
+a:active {
+ color: $nord6;
+}
+
+.dataTitle {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+
+.dataContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: flex-start;
+}
+
+.data {
+  background-color: $nord10;
+  padding: 1em;
+  margin: 10px;
+  width: auto;
+}
+
+.slider {
+  width: 20%;
+  height: 5px;
+  border-radius: 50px;
+}
+
+input[type=range]::-moz-range-thumb {
+  background-color: white;
+  border-color: white;
+  border-radius: 25px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background-color: white;
+  border-color: white;
+  border-radius: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: $nord10;
+  font-weight: bold;
+}
